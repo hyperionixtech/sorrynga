@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,17 +8,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>Sorry nga</h1>
-        <div id="messages">
-            <p>Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry </p>
-            Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry 
-            Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry 
-            Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry 
-            Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry 
-            Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry 
-            Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry 
-            Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry Sorry 
+        <h1 id="question">Sorrynga thriyama pannitan?</h1>
+        <div class="buttons">
+            <button onclick="nextQuestion('seri')">Seri manichitan</button>
+            <button id="manikamatan" onclick="nextQuestion('manikamatan')">Manikamatan</button>
         </div>
+        <p id="final-message" style="display:none;">Neenga periya manusan tha. Nalaki samosa 😁 vangi tharan.</p>
     </div>
     <script src="scripts.js"></script>
 </body>
