@@ -15,37 +15,37 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    animation: bounce 2s infinite;
 }
 
 h1 {
     color: #d9534f;
     margin-bottom: 20px;
-    font-size: 2.5em;
-    animation: colorchange 3s infinite;
+    font-size: 2em;
 }
 
-#messages {
-    font-size: 1.5em;
-    color: #555;
+.buttons {
+    margin-top: 20px;
 }
 
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-30px);
-    }
-    60% {
-        transform: translateY(-15px);
-    }
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
 }
 
-@keyframes colorchange {
-    0% { color: #d9534f; }
-    25% { color: #ff9800; }
-    50% { color: #4caf50; }
-    75% { color: #2196f3; }
-    100% { color: #9c27b0; }
+button:hover {
+    background-color: #45a049;
+}
+
+#manikamatan {
+    background-color: #f44336;
+}
+
+#manikamatan:hover {
+    background-color: #e53935;
 }
